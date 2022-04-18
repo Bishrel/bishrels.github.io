@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.main}>
       <Head>
         <title>Bishrel's CV</title>
-        <link href="styles.css" type="text/css" rel="stylesheet"></link>
+        <link href="styles.css" type="text/css" rel="stylesheet"/>
       </Head>
       <div className={styles.container}>
 
