@@ -1,6 +1,6 @@
 import loadCustomRoutes from 'next/dist/lib/load-custom-routes'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from 'styles/Home.module.css'
 import Link from 'next/link'
 
 
