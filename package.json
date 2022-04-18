@@ -1,0 +1,26 @@
+{
+  "homepage": "https://bishrel.github.io/bishrels.github.io/",
+  "name": "cv_bishrel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "replaceFilePaths": "node replacer.js",
+    "dev": "next dev",
+    "build": "next build && next export -o build && npm run replaceFilePaths",
+    "start": "next start",
+    "export": "next export -o build && npm run replaceFilePaths",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "replace-in-file": "^6.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5",
+    "gh-pages": "^3.2.3"
+  }
+}
