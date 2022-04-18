@@ -1,7 +1,6 @@
-import loadCustomRoutes from 'next/dist/lib/load-custom-routes'
+
 import Head from 'next/head'
-import styles from 'styles/Home.module.css'
-import Link from 'next/link'
+import styles from '/styles/Home.module.css'
 
 
 export default function Home() {
@@ -9,7 +8,7 @@ export default function Home() {
     <div className={styles.main}>
       <Head>
         <title>Bishrel's CV</title>
-
+        <link href="styles/Home.module.css" type="text/css" rel="stylesheet"></link>
       </Head>
       <div className={styles.container}>
 
