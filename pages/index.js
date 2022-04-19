@@ -1,6 +1,6 @@
 
 import Head from 'next/head'
-import styles from '/styles/Home.module.css'
+import styles from 'styles/Home.module.css'
 
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.main}>
       <Head>
         <title>Bishrel's CV</title>
-        <link href="styles.css" type="text/css" rel="stylesheet">
+        <link href="styles.css" type="text/css" rel="stylesheet"/>
       </Head>
       <div className={styles.container}>
 
